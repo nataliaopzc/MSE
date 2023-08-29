@@ -1,0 +1,83 @@
+\documentclass{article}[H]
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ left=25.4mm,
+ top=25.4mm,
+ }
+\usepackage[spanish]{babel}
+\usepackage{natbib}
+\usepackage{graphicx} 
+\graphicspath{{../fig/}}  
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{float} 
+%\usepackage{todonotes}
+%\newcommand{\toask}[2][]{\todo[#1,color=green!60]{#2}}
+%\newcommand{\test}[2][]{\todo[#1,color=red!60]{#2}}
+%\newcommand{\done}[2][]{\todo[#1,color=blue!60]{#2}}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false}
+
+
+\title{\textbf{Documento de especificación de las pruebas de EEM} \\
+\large Evaluación de estrategias de manejo pesquero (EEM) para el stock de anchoveta del norte de Chile en el contexto del enfoque precautorio de la Ley General de Pesca y Acuicultura.}
+
+\author{}
+
+\date{}
+
+\begin{document}
+ 
+\maketitle
+
+\section{Introducción}
+
+\input{./Secciones/Introduccion.tex}
+
+\subsection{Especie estudiada}
+
+\input{./Secciones/Especie.tex}
+
+\subsection{Fundamentos de la EEM}
+
+\input{./Secciones/Fundamentos.tex}
+
+\subsection{Introducción a openMSE}
+
+\input{./Secciones/openMSE.tex}
+
+\section{Componentes de una EEM}
+
+\input{./Secciones/ComponentesEEM.tex}
+
+\subsection{Desarrollo de modelos operativos, modelo base.}
+
+\input{./Secciones/DesarrolloMO.tex}
+
+\section{Supuestos de la dinámica en el MO}
+
+\input{./Secciones/SupuestosMO.tex}
+
+\section{Procedimientos de manejo (PM)}
+
+\input{./Secciones/ProcedimientosPM.tex}
+
+\section{Medidas de desempeño}
+
+\input{./Secciones/Desempeño.tex}
+
+\input{./Secciones/imagenes.tex}
+
+\section{Asistentes al Workshop}
+
+\input{./Secciones/Asistentes.tex}
+
+\bibliographystyle{apalike}
+\bibliography{citas.bib}
+\addcontentsline{toc}{chapter}{Bibliografía}
+
+\end{document}
+ 
