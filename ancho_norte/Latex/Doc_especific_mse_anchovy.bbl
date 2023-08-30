@@ -1,3 +1,210 @@
 \begin{thebibliography}{}
 
+\bibitem[Canales and Cubillos, 2021]{canales2021empirical}
+Canales, C.~M. and Cubillos, L.~A. (2021).
+\newblock Empirical survey-based harvest control rules in a transboundary small
+  pelagic fishery under recruitment regime shifts: The case of the northern
+  chilean-southern peruvian anchovy.
+\newblock {\em Marine Policy}, 134:104784.
+
+\bibitem[Canales and Leal, 2009]{canales2009parametros}
+Canales, T.~M. and Leal, E. (2009).
+\newblock Par{\'a}metros de historia de vida de la anchoveta engraulis ringens
+  jenyns, 1842, en la zona centro norte de chile.
+\newblock {\em Revista de biolog{\'\i}a marina y oceanograf{\'\i}a},
+  44(1):173--179.
+
+\bibitem[Carruthers and Hordyk, 2018]{carruthers2018data}
+Carruthers, T.~R. and Hordyk, A.~R. (2018).
+\newblock The data-limited methods toolkit (dlm tool): An r package for
+  informing management of data-limited populations.
+\newblock {\em Methods in Ecology and Evolution}, 9(12):2388--2395.
+
+\bibitem[Cerna and Plaza, 2016]{cerna2016daily}
+Cerna, F. and Plaza, G. (2016).
+\newblock Daily growth patterns of juveniles and adults of the peruvian anchovy
+  (engraulis ringens) in northern chile.
+\newblock {\em Marine and Freshwater Research}, 67(7):899--912.
+
+\bibitem[Claramunt et~al., 2012]{claramunt2012inter}
+Claramunt, G., Castro, L.~R., Cubillos, L.~A., Hirche, H.-J., Perez, G., and
+  Braun, M. (2012).
+\newblock Inter-annual reproductive trait variation and spawning habitat
+  preferences of engraulis ringens off northern chile.
+\newblock {\em Revista de biolog{\'\i}a marina y oceanograf{\'\i}a},
+  47(2):227--243.
+
+\bibitem[Cubillos et~al., 2007]{cubillos2007synchronous}
+Cubillos, L.~A., Serra, R., and Fr{\'e}on, P. (2007).
+\newblock Synchronous pattern of fluctuation in three anchovy fisheries in the
+  humboldt current system.
+\newblock {\em Aquatic Living Resources}, 20(1):69--75.
+
+\bibitem[Espíndola, 2023]{espinola2023}
+Espíndola, F. (2023).
+\newblock Estatus y posibilidades de explotación biológicamente sustentables
+  de anchoveta y sardina española, región de arica y parinacota a la región
+  de antofagasta, cba al año 2023. segundo informe.
+\newblock {\em SUBSECRETARÍA DE ECONOMÍA y EMT. IFOP}, page 125.
+
+\bibitem[FAO, 1997]{FAO1997}
+FAO (1997).
+\newblock Enfoque precautorio para la pesca de captura y la introduccion de
+  especies. fao ´orientaciones tecnicas para la pesca responsable. n°2. roma.
+\newblock page~64.
+
+\bibitem[FAO, 2003]{FAO2003}
+FAO (2003).
+\newblock La ordenacion pesquera. el enfoque de ecosistemas en la pesca. fao
+  orientaciones ´tecnicas para la pesca responsable. no. 4, supl. 2. roma,.
+\newblock page 133.
+
+\bibitem[Hernandez et~al., 2023]{Hernandez2023}
+Hernandez, C., Morales, N., D\'iaz, E., Lichtenberg, M., P\'erez, G., Pizarro,
+  M., Bustamante, A., Cerna, F., Machuca, C., Rodr\'iguez, C., Ojeda, R.,
+  Aravena, R., Mu\~noz, G., Gaspar, C., Y\'a\~nez, O., and Garc\'ia, M. (2023).
+\newblock Programa de seguimiento de las principales pesquer\'ias pel\'agicas
+  de la zona norte de chile, entre las regiones de arica y parinacota y
+  coquimbo, a\~no 2022.
+\newblock page 349.
+
+\bibitem[Hordyk and Newman., 2019]{Hordyk2019}
+Hordyk, A. and Newman., D. (2019).
+\newblock Rebuilding analysis of the chile common hake fishery. final report.
+  nekton consulting.
+\newblock page~43.
+
+\bibitem[Hordyk and Carruthers., 2023]{Hordyk2023}
+Hordyk, A., Q.~H. and Carruthers., T. (2023).
+\newblock . msetool: Management strategy evaluation toolkit. r package version
+  3.6.2.
+\newblock . https://CRAN.R-project.org/package=MSEtool.
+
+\bibitem[Hurtado-Ferro et~al., 2015]{hurtado2015looking}
+Hurtado-Ferro, F., Szuwalski, C.~S., Valero, J.~L., Anderson, S.~C.,
+  Cunningham, C.~J., Johnson, K.~F., Licandeo, R., McGilliard, C.~R., Monnahan,
+  C.~C., Muradian, M.~L., et~al. (2015).
+\newblock Looking in the rear-view mirror: bias and retrospective patterns in
+  integrated, age-structured stock assessment models.
+\newblock {\em ICES Journal of Marine Science}, 72(1):99--110.
+
+\bibitem[Huynh et~al., 2022]{huynh2022closed}
+Huynh, Q.~C., Legault, C.~M., Hordyk, A.~R., and Carruthers, T.~R. (2022).
+\newblock A closed-loop simulation framework and indicator approach for
+  evaluating impacts of retrospective patterns in stock assessments.
+\newblock {\em ICES Journal of Marine Science}, 79(7):2003--2016.
+
+\bibitem[Huynh and Hordyk., 2023]{Huynh2023}
+Huynh, Q., T.~C. and Hordyk., A. (2023).
+\newblock Samtool: Stock assessment methods toolkit. r package version 1.5.2.
+\newblock https://CRAN.R-project.org/package=SAMtool.
+
+\bibitem[Leal~Fa{\'u}ndez et~al., 2011]{leal2011informe}
+Leal~Fa{\'u}ndez, E., Esp{\'\i}ndola~Rebolledo, F., Wiff~Onetto, R.,
+  Quiroz~Espinosa, J., Pay{\'a}~Contreras, I., Contreras~Mej{\'\i}as, F.,
+  Tascheri~Oyaneder, R., Montenegro~Silva, C., Bucarey~Sep{\'u}lveda, D.,
+  Serra~Beherns, J., et~al. (2011).
+\newblock Informe final. convenio investigaci{\'o}n del estatus y
+  evaluaci{\'o}n de estrategias de exploatci{\'o}n sustentables 2011, de las
+  principales pesquer{\'\i}as chilenas. meta cualitativa: estatus de especies
+  pesqueras 2011.
+
+\bibitem[Mart{\'\i}nez~Far{\'\i}as et~al., 1998]{martinez1998informe}
+Mart{\'\i}nez~Far{\'\i}as, C., Aranis~Rodr{\'\i}guez, A., Baros~Pinto, V.,
+  Barr{\'\i}a~Mart{\'\i}nez, P., Blanco~Garc{\'\i}a, J., and B{\"o}hm~Stoffel,
+  M. (1998).
+\newblock Informe final fip 96-04. programa de marcaje de anchoveta fase i:
+  Marcaci{\'o}n.
+
+\bibitem[Martínez et~al., 2009]{martinez2009}
+Martínez, C., Bohm, G., Díaz, E., Ossa, L., Reyes, H., Aravena, R., Cerna,
+  F., Boic, V., Machuca, C., Muñoz, L., and Troncoso, M. (2009).
+\newblock Programa seguimiento del estado de situación de las principales
+  pesquerías nacionales. proyecto investigación de la situación de la
+  pesquería pelágica de la zona norte, 2008- informa final, convenio subpesca
+  – ifop.
+
+\bibitem[Maunder and Aires-Da-Silva, 2008]{maunder20089th}
+Maunder, M.~N. and Aires-Da-Silva, A. (2008).
+\newblock 9th stock assessment review meeting.
+
+\bibitem[Mohn, 1999]{mohn1999retrospective}
+Mohn, R. (1999).
+\newblock The retrospective problem in sequential population analysis: an
+  investigation using cod fishery and simulated data.
+\newblock {\em ICES Journal of Marine Science}, 56(4):473--488.
+
+\bibitem[Payá et~al., 2014]{Paya2014}
+Payá, I., Canales, C., Bucarey, D., Canales, M., Contreras, F., Leal, E.,
+  Tascheri, R., Y\'a\~nez, A., and Z\'u\~niga, M. (2014).
+\newblock Proyecto 2.16: revisión de los puntos biológicos de referencia
+  (rendimiento máximo sostenible) en las pesquerías nacionales.
+\newblock {\em Convenio II: estatus y posibilidades de explotación
+  biológicamente sustentables de los principales recursos pesqueros nacionales
+  año}.
+
+\bibitem[Pella, 1969]{jj1969generalized}
+Pella, J. (1969).
+\newblock A generalized stock production model.
+\newblock {\em Bull. Inter. Am. Trop. Tuna Comm.}, 13:419--496.
+
+\bibitem[Plaza et~al., 2012]{plaza2012}
+Plaza, G., Cerna, F., and Legua, J. (2012).
+\newblock Validación de formación de anillos primarios y macro-anillos de
+  crecimiento en otolitos de anchoveta de la zona norte.
+\newblock page 130.
+
+\bibitem[PRODUCE, 2021]{produce2021}
+PRODUCE (2021).
+\newblock Informe sobre la situación de la anchoveta disponible en la región
+  sur del mar peruano y perspectivas de explotación para la primera temporada
+  de pesca de 2022.
+\newblock {\em Resolución ministerial N° 173}, page~15.
+
+\bibitem[Rademeyer et~al., 2007]{rademeyer2007tips}
+Rademeyer, R.~A., Plag{\'a}nyi, {\'E}.~E., and Butterworth, D.~S. (2007).
+\newblock Tips and tricks in designing management procedures.
+\newblock {\em ICES Journal of Marine Science}, 64(4):618--625.
+
+\bibitem[Reyes et~al., 2017]{reyes2017problemas}
+Reyes, F., Gelcich, S., and R{\'\i}os, M. (2017).
+\newblock Problemas globales, respuestas locales: planes de manejo como
+  articuladores de un sistema de gobernabilidad polic{\'e}ntrica de los
+  recursos pesqueros.
+\newblock {\em Propuestas para Chile}, page 121.
+
+\bibitem[Rojas et~al., 1983]{rojas1983estimacion}
+Rojas, O., Mujica, A., Labra, M., Ledermann, G., and Miles, H. (1983).
+\newblock Estimaci{\'o}n de la abundancia relativa de huevos y larvas de peces.
+\newblock {\em AP83/31. Santiago, Chile, IFOP-80p}.
+
+\bibitem[Serra, 1975]{sg}
+Serra, R., E.~G. (1975).
+\newblock Marcacion de anchoveta en la zona norte de chile. metodolog ´ ´ıa
+  y trabajospreliminares.
+\newblock {\em Rev. Com. Perm. Pacifico Sur}, pages 3:3--19.
+
+\bibitem[Serra and Canales, 2013]{serra2013}
+Serra, R. and Canales, C. (2013).
+\newblock Investigacion del estatus y evaluación de estrategias de
+  explotación sustentables 2013, de las principales pesquerías chilenas.
+  actividad 1: Peces pelágicos: Anchoveta y sardina española xv, i y ii
+  regiones. 2011. informe final.
+
+\bibitem[Serra~Beherns and Canales~Ram{\'\i}rez, 2012]{serra2012final}
+Serra~Beherns, J. and Canales~Ram{\'\i}rez, C. (2012).
+\newblock Final report. convention status biologically sustainable exploitation
+  of fisheries resources major national, 2012: Anchovies xv-2012 ii regions.
+
+\bibitem[Tsukamoto et~al., 2008]{tsukamoto2008refocusing}
+Tsukamoto, K., Kawamura, T., Takeuchi, T., Beard~Jr, T., and Kaiser, M. (2008).
+\newblock Refocusing stock assessment in support of policy evaluation.
+\newblock {\em Fisheries for Global Welfare and Environment}, page 139.
+
+\bibitem[Valle-Levinson and Moraga-Opazo, 2006]{valle2006observations}
+Valle-Levinson, A. and Moraga-Opazo, J. (2006).
+\newblock Observations of bipolar residual circulation in two
+  equatorward-facing semiarid bays.
+\newblock {\em Continental Shelf Research}, 26(2):179--193.
+
 \end{thebibliography}
