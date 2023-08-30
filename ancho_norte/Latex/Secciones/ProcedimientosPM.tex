@@ -20,7 +20,40 @@ La evaluación de stock de anchoveta es actualizada dos veces al año. La primer
 
 \subsection{PM actual con rho de Mohn – se ajusta el patrón retrospectivo para la CBA}
 
-El procedimiento de manejo actual tiene un alto grado de incertidumbre, ya que en la segunda actualización la CBA depende de si el último reclutamiento estimado por el modelo de evaluación es penalizado o no. Esto se debe a que el modelo de evaluación actual presenta un patrón retrospectivo positivo en los reclutamientos \citep{espinola2023}. Anticipando a que este patrón sea incorporado en la proyección, se aplica el estadístico de rho de Mohn \citep{mohn1999retrospective,hurtado2015looking,huynh2022closed} para la estimación de la CBA.
+El procedimiento de manejo actual tiene un alto grado de incertidumbre, ya que en la segunda actualización la CBA depende de si el último reclutamiento estimado por el modelo de evaluación es penalizado o no. Esto se debe a que el modelo de evaluación actual presenta un patrón retrospectivo positivo en los reclutamientos \citep{espinola2023}. Anticipando a que este patrón sea incorporado en la proyección, se aplica el estadístico de rho de Mohn \citep{mohn1999retrospective,hurtado2015looking,huynh2022closed} para la estimación de la CBA. Durante la proyección del stock de anchoveta, los reclutamientos
+estimados al último semestre se corrigen en base al parámetro de rho de Mohn: \todo{Supongo que aquí va algo que está pendiente}
+\newline
+
+Donde es el reclutamiento ajustado, es el último reclutamiento estimado por el modelo de evaluación,
+y el estadístico rho de Mohn (\todo{Aquí va la cita?}) para el reclutamiento es calculado a partir de un análisis retrospectivo, el
+cual consiste en ir eliminando series de datos hasta los últimos 5 años más recientes (en pasos anuales).
+Las estimaciones de un modelo consistente a lo largo del tiempo (sin patrón retrospectivo) debería
+tener un . El ajuste rho se realiza en ambos pasos de tiempo del procedimiento de manejo.
+\newline
+
+El modelo de evaluación utilizado en estos dos MP es el Modelo de Acondicionamiento Rápido (RCM),
+codificado en TMB y distribuido en el paquete SAMtool de R, y es una aproximación de la evaluación
+actual de anchoveta codificada en ADMB. No es técnicamente factible probar la evaluación actual en
+una simulación de circuito cerrado debido al tiempo de ejecución del modelo. Dado el mismo conjunto
+de datos, las tendencias y la magnitud de las estimaciones históricas de la biomasa desovante son
+similares entre los dos modelos (Figura \ref{fig:RCM_.ADMB}). Es importante destacar que RCM tiene el mismo
+comportamiento retrospectivo (Figura \ref{fig:Retros_RCM}) que el modelo base de evaluación de stock.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=1.1]{RCM_.ADMB.pdf}  
+    \caption{Comparación de la estimación de la biomasa desovante para el stock de anchoveta a través del
+    Modelo de Acondicionamiento Rápido (RCM) y el modelo actual de evaluación en ADMB.}
+    \label{fig:RCM_.ADMB}
+\end{figure}  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=1.1]{Retros_RCM.pdf}  
+    \caption{Patrón retrospectivo para el reclutamiento estimado para el Modelo de Acondicionamiento
+    Rápido (RCM), se muestra el descuento de siete pasos de tiempo.}
+    \label{fig:Retros_RCM}
+\end{figure}  
 
 \subsection{PM basado en una aproximación empírica, modelo basado simple.}
 
@@ -30,16 +63,24 @@ Este PM emplea la regla empírica propuesta por \cite{canales2021empirical} la q
 Durante el taller presencial se acordó implementar esta regla de control usando tanto datos del crucero de huevos como del crucero acústico. El nivel de captura de referencia fue acordado para ambos casos como un valor de referencia de 285 mil toneladas, como representativo de los últimos años. Y los valores de los índices para cada caso corresponderá a los mismos criterios empleados por \cite{canales2021empirical}. 
 \newline
 
-Con respecto a los reclutamientos se acordó: continuar con la metodología de utilizar el promedio diferenciado por semestre.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{cba_empirico.pdf}  
+    \caption{Relación entre la captura de referencia y el índice de referencia para la regla de control de
+    captura (RCC) basado en el crucero.}
+    \label{fig:cba_empirico.pdf}
+\end{figure} 
+\todo{Ojo, esta imagen nunca se menciona en el texto}
+% Con respecto a los reclutamientos se acordó: continuar con la metodología de utilizar el promedio diferenciado por semestre.
 
-\begin{itemize}
-    \item Para los PM establecidos se continuará con la metodología propuesta y usada habitualmente por el CCT-PP para proyectar el stock de anchoveta, promedios diferenciados por semestre \citep{espinola2023}. 
-    \item Para una futura exploración de PM se podrá explorar la inquietud señalada por la SUBPESCA, con relación a realizar un ejercicio con un sólo reclutamiento (como caso excepcional, por ejemplo, para escenarios del ENSO).
-\end{itemize}
+% \begin{itemize}
+%     \item Para los PM establecidos se continuará con la metodología propuesta y usada habitualmente por el CCT-PP para proyectar el stock de anchoveta, promedios diferenciados por semestre \citep{espinola2023}. 
+%     \item Para una futura exploración de PM se podrá explorar la inquietud señalada por la SUBPESCA, con relación a realizar un ejercicio con un sólo reclutamiento (como caso excepcional, por ejemplo, para escenarios del ENSO).
+% \end{itemize}
 
-En la \ref{tabla3} se resumen los diferentes procedimientos de manejo detallados anteriormente.
+En el Cuadro \ref{tab:tabla3} se resumen los diferentes procedimientos de manejo detallados anteriormente.
 
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \caption{Resumen de los procedimientos de manejo en la simulación para la anchoveta norte. Las descripciones se entienden como variaciones del modelo operativo base por MO1.}
     \label{tab:tabla3}

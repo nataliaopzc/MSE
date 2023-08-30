@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.24)  30 AUG 2023 08:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.24)  30 AUG 2023 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/natalia.opazo/Documents/ancho_norte/Latex/Doc_especific_mse_anchovy.tex
-(c:/Users/natalia.opazo/Documents/ancho_norte/Latex/Doc_especific_mse_anchovy.tex
+**c:/Users/natalia.opazo/Documents/MSE/ancho_norte/Latex/Doc_especific_mse_anchovy.tex
+(c:/Users/natalia.opazo/Documents/MSE/ancho_norte/Latex/Doc_especific_mse_anchovy.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
 (C:\Users\natalia.opazo\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -675,13 +675,21 @@ Underfull \hbox (badness 7116) in paragraph at lines 38--40
 
 
 
+pdfTeX warning: pdflatex (file ../fig/crece_year.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<../fig/crece_year.pdf, id=231, 722.7pt x 650.43pt>
+File: ../fig/crece_year.pdf Graphic file (type pdf)
+<use ../fig/crece_year.pdf>
+Package pdftex.def Info: ../fig/crece_year.pdf  used on input line 50.
+(pdftex.def)             Requested size: 361.3491pt x 325.2142pt.
+[6]
+
 pdfTeX warning: pdflatex (file ../fig/figura3.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<../fig/figura3.pdf, id=236, 722.7pt x 650.43pt>
+<../fig/figura3.pdf, id=250, 722.7pt x 650.43pt>
 File: ../fig/figura3.pdf Graphic file (type pdf)
 <use ../fig/figura3.pdf>
-Package pdftex.def Info: ../fig/figura3.pdf  used on input line 52.
+Package pdftex.def Info: ../fig/figura3.pdf  used on input line 63.
 (pdftex.def)             Requested size: 361.3491pt x 325.2142pt.
-) [6] (Secciones/SupuestosMO.tex
+) [7 <../fig/crece_year.pdf>] (Secciones/SupuestosMO.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
@@ -689,22 +697,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
 
 pdfTeX warning: pdflatex (file ../fig/figura4.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<../fig/figura4.pdf, id=252, 650.43129pt x 650.43129pt>
+<../fig/figura4.pdf, id=268, 650.43129pt x 650.43129pt>
 File: ../fig/figura4.pdf Graphic file (type pdf)
 <use ../fig/figura4.pdf>
 Package pdftex.def Info: ../fig/figura4.pdf  used on input line 12.
 (pdftex.def)             Requested size: 227.65436pt x 227.65436pt.
-[7 <../fig/figura3.pdf>]
+[8 <../fig/figura3.pdf>]
 
-pdfTeX warning: pdflatex (file ../fig/figura5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<../fig/figura5.pdf, id=267, 505.891pt x 433.62086pt>
-File: ../fig/figura5.pdf Graphic file (type pdf)
-<use ../fig/figura5.pdf>
-Package pdftex.def Info: ../fig/figura5.pdf  used on input line 19.
-(pdftex.def)             Requested size: 328.82524pt x 281.85022pt.
-[8 <../fig/figura4.pdf> <../fig/figura5.pdf
+pdfTeX warning: pdflatex (file ../fig/value_recluta_case_om1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<../fig/value_recluta_case_om1.pdf, id=282, 578.16116pt x 433.62086pt>
+File: ../fig/value_recluta_case_om1.pdf Graphic file (type pdf)
+<use ../fig/value_recluta_case_om1.pdf>
+Package pdftex.def Info: ../fig/value_recluta_case_om1.pdf  used on input line 19.
+(pdftex.def)             Requested size: 375.8003pt x 281.85022pt.
+[9 <../fig/figura4.pdf> <../fig/value_recluta_case_om1.pdf
 
-pdfTeX warning: pdflatex (file ../fig/figura5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ../fig/value_recluta_case_om1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]) (Secciones/ProcedimientosPM.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
@@ -715,41 +723,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
-
- []
-
 [10]
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
-LaTeX Warning: Reference `tabla3' on page 11 undefined on input line 40.
+ []
 
-) (Secciones/Desempeño.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--33
+
+ []
+
+
+LaTeX Warning: Marginpar on page 11 moved.
+
+
+
+pdfTeX warning: pdflatex (file ../fig/RCM_.ADMB.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<../fig/RCM_.ADMB.pdf, id=330, 331.17795pt x 247.8866pt>
+File: ../fig/RCM_.ADMB.pdf Graphic file (type pdf)
+<use ../fig/RCM_.ADMB.pdf>
+Package pdftex.def Info: ../fig/RCM_.ADMB.pdf  used on input line 44.
+(pdftex.def)             Requested size: 364.29686pt x 272.67607pt.
+[11]
+
+pdfTeX warning: pdflatex (file ../fig/Retros_RCM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<../fig/Retros_RCM.pdf, id=345, 365.31932pt x 244.88438pt>
+File: ../fig/Retros_RCM.pdf Graphic file (type pdf)
+<use ../fig/Retros_RCM.pdf>
+Package pdftex.def Info: ../fig/Retros_RCM.pdf  used on input line 52.
+(pdftex.def)             Requested size: 401.85248pt x 269.37364pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+[12 <../fig/RCM_.ADMB.pdf> <../fig/Retros_RCM.pdf
+
+pdfTeX warning: pdflatex (file ../fig/Retros_RCM.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ../fig/cba_empirico.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<../fig/cba_empirico.pdf, id=369, 722.7pt x 650.43pt>
+File: ../fig/cba_empirico.pdf Graphic file (type pdf)
+<use ../fig/cba_empirico.pdf>
+Package pdftex.def Info: ../fig/cba_empirico.pdf  used on input line 68.
+(pdftex.def)             Requested size: 361.3491pt x 325.2142pt.
+[13 <../fig/cba_empirico.pdf>]) (Secciones/Desempeño.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (Secciones/imagenes.tex
 
 pdfTeX warning: pdflatex (file ../fig/figura6.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<../fig/figura6.pdf, id=333, 3179.88pt x 2890.8pt>
+<../fig/figura6.pdf, id=389, 3179.88pt x 2890.8pt>
 File: ../fig/figura6.pdf Graphic file (type pdf)
 <use ../fig/figura6.pdf>
 Package pdftex.def Info: ../fig/figura6.pdf  used on input line 5.
 (pdftex.def)             Requested size: 318.00662pt x 289.09694pt.
-[11]
+[14]
 
 pdfTeX warning: pdflatex (file ../fig/figura7.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<../fig/figura7.pdf, id=342, 433.62086pt x 216.81042pt>
+<../fig/figura7.pdf, id=397, 433.62086pt x 216.81042pt>
 File: ../fig/figura7.pdf Graphic file (type pdf)
 <use ../fig/figura7.pdf>
 Package pdftex.def Info: ../fig/figura7.pdf  used on input line 12.
 (pdftex.def)             Requested size: 433.6198pt x 216.80989pt.
-) [12 <../fig/figura6.pdf>] (Secciones/Asistentes.tex) (Doc_especific_mse_anchovy.bbl [13 <../fig/figura7.pdf>] [14]) [15] (Doc_especific_mse_anchovy.aux
+[15 <../fig/figura6.pdf>]
+<../fig/figura8.png, id=409, 1355.0625pt x 451.6875pt>
+File: ../fig/figura8.png Graphic file (type png)
+<use ../fig/figura8.png>
+Package pdftex.def Info: ../fig/figura8.png  used on input line 19.
+(pdftex.def)             Requested size: 433.62886pt x 144.54294pt.
+) (Secciones/Asistentes.tex [16 <../fig/figura7.pdf> <../fig/figura8.png>]) (Doc_especific_mse_anchovy.bbl [17] [18]) [19] (Doc_especific_mse_anchovy.aux
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
 )
@@ -757,25 +811,21 @@ LaTeX Info: Redefining \% on input line 29.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Doc_especific_mse_anchovy.out' has not changed.
-(rerunfilecheck)             Checksum: 2ED719DD7E8FA052349B2193960C8CE8;4105.
+(rerunfilecheck)             Checksum: 2B7242D6E83B9D039E84F90268C3F275;4105.
  ) 
 Here is how much of TeX's memory you used:
- 23713 strings out of 475502
- 451437 string characters out of 5758037
- 1941248 words of memory out of 5000000
- 44502 multiletter control sequences out of 15000+600000
+ 23800 strings out of 475502
+ 453740 string characters out of 5758037
+ 1944248 words of memory out of 5000000
+ 44577 multiletter control sequences out of 15000+600000
  563689 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,101p,2260b,953s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,101p,2264b,964s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\natalia.opazo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk> <C:\Users\natalia.opazo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/natalia.opazo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/natalia.opazo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/natalia.opazo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/natalia.opazo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/natalia.opazo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/natalia.opazo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/natalia.opazo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/natalia.opazo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/natalia.opazo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/natalia.opazo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Doc_especific_mse_anchovy.pdf (15 pages, 3001460 bytes).
+Output written on Doc_especific_mse_anchovy.pdf (19 pages, 3903674 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 512 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
